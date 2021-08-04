@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+
+.info__section{
+  border: 1px solid gray;
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  color: gray;
+}
+
+.upload_title{
+  font-size: 20px;
+  /* border-bottom: gray; */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.up_text{
+  text-align: center;
+}
+
+.up_form{
+  margin-top: 15px;
+}
+
+.up__title{
+  width: 100%;
+  margin: 0 auto;
+}
+.up__title_input, .up__url_input{
+  width: 95%;
+  padding: 10px;
+}
+/* .up__modelect{
+} */
+
+.up__mos{
+  /* width: 40%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.model, .model_year, .manufacturer, .custom{
+  width: 40%;
+}
+
+.up__model_input{
+  padding: 10px;
+  width: 100%;
+}
+.up_model_year_input, .up_manufacturer_input, .up_custom_input{
+  padding: 10px;
+  color: gray;
+  width: 100%;
+}
+
+.up__mes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.image_btn{
+  /* position: absolute;
+  left:0;
+  top:0;
+  opacity: 0; */
+  width: 100%;
+  /* height: 100%; */
+  color: gray;
+}
+
+.up_introduction_text{
+  width: 95%;
+  height: 150px;
+  padding: 10px;
+}
+
+.upping_btn{
+  margin-top: 30px;
+  width: 100%;
+}
+
+.up_sb_btn{
+  border: 1px solid gray;
+  border-radius: 0;
+  background: #fff;
+  color: gray;
+  padding: 5px;
+  width: 90%;
+}
+.sub_btn{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.back__btn_edit{
+  color: gray;
+}
+
+.b__btn{
+  width: 80%;
+  margin: 0 auto 30px;
+}

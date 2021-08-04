@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+
+/* ヘッダー */
+.header_border{
+  width: 100%;
+  border-bottom: 3px solid gray;
+}
+
+.header{
+  margin: 0 auto;
+  width: 90%;
+  height: 80px;
+  /* background-color: aliceblue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top_left{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.top_logo{
+  color: gray;
+}
+
+.login_btn, .signin_btn, .upload_btn{
+  color: gray;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  margin-right: 30px;
+}
+
+.mypage_btn, .logout_btn{
+  color: gray;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  margin-right: 30px;
+}
+
+
+/* メイン */
+.search__top{
+  margin-top: 30px;
+  width: 100%;
+}
+.search__top form{
+  text-align: center;
+}
+
+.search__t{
+  padding: 8px;
+}
+
+.search__btn{
+  border: 1px solid gray;
+  border-radius: 0;
+  background: #fff;
+  color: gray;
+  padding: 5px;
+}
+.u__all_title{
+  text-align: center;
+  color: gray;
+  margin: 30px auto 20px;
+}
+.users{
+  text-align: center;
+  color: gray;
+}
+.search__users{
+  text-align: center;
+  color: gray;
+}
+.search__no{
+  text-align: center;
+  color: gray;
+}
+
+
+
+
+
+.color{
+  color: gray;
+}
+.top_imgs{ 
+  width: 100%;
+  display: flex;
+  position: relative;
+  /* border-bottom: 3px solid gray; */
+}
+
+.top_img{
+  margin: auto;
+  align-items: center;
+}
+
+.top_comment{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 100px;
+  margin: auto;
+  color: gray;
+}
+
+.bikes__show{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bikes__show:after{
+  content:"";
+  display:block;
+  width: 32%;
+  height:0;
+}
+.bike__looks{
+  border: 1px solid gray;
+  width: 350px;
+  text-align: center;
+  /* width: 32%; */
+  margin-bottom: 50px;
+}
+.bike_img{
+  margin: auto;
+}
+
+.bike__mm{
+  color: gray;
+}
+.bike__title{
+  color: gray;
+  font-size: 25px;
+}
+
+.bike__user{
+  color: gray;
+}
+
+
+
+
+
+/* バイク詳細 */
+.bike__look{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  color: gray;
+
+}
+.bike__look__right{
+  width: 500px;
+}
+.bike__show__title{
+  font-size: 25px;
+}
+.back__btn__box{
+  text-align: right;
+  width: 100%;
+}
+.back_btn{
+  color: gray;
+}
+.bike__show__int{
+  height: 200px;
+  border: 1px solid gray;
+  padding: 5px;
+}
+.bike__show__spec{
+  display: flex;
+  justify-content: space-between;
+}
+.bike__show__url{
+  color: gray;
+}
+.bike__show__edit__btn, .bike__show__delete__btn{
+  color: gray;
+}
+.iine{
+  border: 1px solid gray;
+  border-radius: 0;
+  background: #fff;
+  color: gray;
+}
+.comments{
+  width: 90%;
+  margin: 0 auto;
+}
+.comment__title{
+  color: gray;
+  font-size: 25px;
+  margin-top: 50px;
+}
+.comment_input{
+  border: 1px solid gray;
+  padding: 6px;
+  width: 300px; 
+}
+.comment__btn{
+  border: 1px solid gray;
+  border-radius: 0;
+  background: #fff;
+  color: gray;
+  padding: 3px;
+}
+.log__list{
+  color: gray;
+  margin: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+
+}
+.comment__submit_erea{
+  margin-bottom: 20px;
+}
+
+/* マイページ */
+.my_page{
+  color: gray;
+}
+.my_show{
+  width: 90%;
+  margin: 0 auto;
+}
+.show_u_title{
+  font-size: 25px;
+  margin-top: 50px;
+}
+.user_edit_btn{
+  color: gray;
+}
+.bike_show_btn{
+  color: gray;
+}
+.show_bikes{
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__bun{
+  width: 90%;
+  margin: 0 auto;
+}
+.top_btn{
+  color: gray;
+}
+
+
+/* メール */
+.mail_ok{
+  color: gray;
+  text-align: center;
+  margin-top: 30px;
+}
