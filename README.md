@@ -25,7 +25,7 @@
 
 
 ## データベース設計
-  [![Image from Gyazo](https://gyazo.com/03cf19ee77605b5bbbd40ff5230d6938)
+  [![Image from Gyazo](https://gyazo.com/03cf19ee77605b5bbbd40ff5230d6938.png)](https://gyazo.com/03cf19ee77605b5bbbd40ff5230d6938)
 
   
 ## 開発環境
