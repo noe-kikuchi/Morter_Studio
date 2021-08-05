@@ -31,7 +31,7 @@
 
   
 ## 開発環境
-  MAMP/MySQL/PHP
+  MAMP/MySQL/PHP/Visual Studio Code
 
 ## データベース
   *データベース名：morterstudio
